@@ -17,7 +17,7 @@ print("Token de autenticação:", token)
 
 
 def cadastrar_livro(token):
-    endpoint = '/book'
+    endpoint = '/booking'
     headers = {'Content-Type': 'application/json', 'Accept': 'application/json', 'Authorization': f'Basic {token}'}
     payload = {
         "firstname": "John",
